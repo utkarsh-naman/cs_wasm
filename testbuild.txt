@@ -1,0 +1,7 @@
+trialf.cpp
+src/utils/state_repr.cpp
+src/utils/moves/left_to_left.cpp
+src/utils/moves/arrange_attacker_victim.cpp
+src/utils/moves/left_to_right.cpp
+src/utils/moves/right_to_left.cpp
+src/utils/moves/right_to_right.cpp
