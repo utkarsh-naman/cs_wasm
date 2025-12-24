@@ -46,4 +46,10 @@ add_executable(cs_cpp trialf.cpp
         src/utils/unmove/arrange_for_undistribution.cpp
         include/utils/unmove/arrange_for_undistribution.hpp
         concepts.cpp
+        src/map-.cpp
+        include/map-.hpp
+        generate_parent_map.cpp
+        src/utils/p_serilaizer.hpp
+        src/utils/p_serializer.cpp
+        include/utils/p_serializer.hpp
 )
