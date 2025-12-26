@@ -1,12 +1,11 @@
 #include <algorithm>
-#include <cstring>
 #include <iostream>
 #include <string>
 #include <vector>
-#include "include/map.hpp"
-#include "include/utils/serializer.hpp"
-#include "include/utils/state_repr.hpp"
-#include "include/utils/unmove/prev_states.hpp"
+#include "../include/map.hpp"
+#include "../include/utils/serializer.hpp"
+#include "../include/utils/state_repr.hpp"
+#include "../include/utils/unmove/prev_states.hpp"
 using namespace std;
 
 

@@ -3,8 +3,8 @@ project(cs_cpp)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(cs_cpp trialf.cpp
-        reference.cpp
+add_executable(cs_cpp tests/isparentcorrect.cpp
+        tests/reference.cpp
         include/rules.hpp
         src/utils/state_repr.cpp
         include/utils/state_repr.hpp
@@ -45,11 +45,26 @@ add_executable(cs_cpp trialf.cpp
         include/utils/unmove/undistribute.hpp
         src/utils/unmove/arrange_for_undistribution.cpp
         include/utils/unmove/arrange_for_undistribution.hpp
-        concepts.cpp
+        tests/concepts.cpp
         src/map-.cpp
         include/map-.hpp
-        generate_parent_map.cpp
+        tests/generate_parent_map.cpp
         src/utils/p_serilaizer.hpp
         src/utils/p_serializer.cpp
         include/utils/p_serializer.hpp
+        src/bot/set_map_values.cpp
+        src/bot/set_map_values.hpp
+        src/bot/set_map_values.cpp
+        bot.cpp
+        tests/testbot.cpp
+        src/bot/returnbestmove.cpp
+        src/bot/unc_engine.cpp
+        src/bot/unc_engine.hpp
+        build/build_map_0.cpp
+        build/test_map0.txt.cpp
+        build/test_map0.cpp
+        src/build/build_map_p_0.cpp
+        src/build/test_map_p_0.cpp
+        src/gamebot/set_suicides.cpp
+        src/gamebot/set_suicides.hpp
 )

@@ -1,0 +1,16 @@
+build_map_0.cpp
+
+../map.cpp
+
+../utils/mod.cpp
+../utils/serializer.cpp
+../utils/state_repr.cpp
+
+../utils/moves/arrange_attacker_victim.cpp
+../utils/moves/arrange_for_distribution.cpp
+../utils/moves/distribute.cpp
+../utils/moves/left_to_left.cpp
+../utils/moves/left_to_right.cpp
+../utils/moves/next_state.cpp
+../utils/moves/right_to_left.cpp
+../utils/moves/right_to_right.cpp

@@ -2,9 +2,9 @@
 // #include <limits>
 // #include <queue>
 
-#include "include/utils/state_repr.hpp"
-#include "include/utils/moves/next_state.hpp"
-#include "include/utils/unmove/prev_states.hpp"
+#include "../include/utils/state_repr.hpp"
+#include "../include/utils/moves/next_state.hpp"
+#include "../include/utils/unmove/prev_states.hpp"
 
 using namespace std;
 

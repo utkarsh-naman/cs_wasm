@@ -10,7 +10,7 @@
 #include "../../../include/utils/state_repr.hpp"
 #include "../../../include/utils/moves/arrange_for_distribution.hpp"
 
-static vector<Player> distribution_pairs(Player fingers)
+static vector<Player> distribution_pairs(const Player& fingers)
 {
     vector<tuple<short, short>> distribution_pairs_list;
     distribution_pairs_list.push_back(fingers);
@@ -29,12 +29,11 @@ static vector<Player> distribution_pairs(Player fingers)
 }
 
 
-Next_State_str_vector distribute(State_tuple state)
+Next_State_str_vector distribute(const State_tuple& state)
 {
     Next_State_str_vector distribution_list;
     Player attacker;
     Player victim;
-    State_tuple distribution_tuple;
     short attacker_index = get<2>(state);
 
     if (attacker_index == 0)

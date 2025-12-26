@@ -47,6 +47,16 @@ void save_map(const Map& map_0, const string& filename) {
         for (const auto& next_s : props.next_states) {
             write_state(out, next_s);
         }
+
+        // 6. Write the contribution
+        out.write(reinterpret_cast<const char*>(&props.contribution), sizeof(props.contribution));
+
+        // 7. Write the windepth
+        out.write(reinterpret_cast<const char*>(&props.windepth), sizeof(props.windepth));
+
+        // 8. Write the losedepth
+        out.write(reinterpret_cast<const char*>(&props.losedepth), sizeof(props.losedepth));
+
     }
     out.close();
     cout << "Map saved successfully to " << filename << endl;
@@ -82,6 +92,16 @@ Map load_map(const string& filename) {
         for (size_t j = 0; j < vec_size; ++j) {
             props.next_states[j] = read_state(in);
         }
+
+        // 6. Read the contribution
+        in.read(reinterpret_cast<char*>(&props.contribution), sizeof(props.contribution));
+
+        // 7. Read the windepth
+        in.read(reinterpret_cast<char*>(&props.windepth), sizeof(props.windepth));
+
+        // 8. Read the losedepth
+        in.read(reinterpret_cast<char*>(&props.losedepth), sizeof(props.losedepth));
+
 
         // Insert into map
         map_0[key] = props;

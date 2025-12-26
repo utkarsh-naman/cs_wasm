@@ -6,6 +6,6 @@
 
 short mod(const short &a, const short &b)
 {
-    if ((a >= 0 && b >= 0) || (a < 0 && b < 0)) return a%b;
-    else return a%b+b;
+    if ((a >= 0 && b >= 0) || (a < 0 && b < 0)) return static_cast<short>(a%b);
+    else return static_cast<short>(a%b+b);
 }

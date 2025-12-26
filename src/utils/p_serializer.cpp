@@ -38,7 +38,7 @@ void save_p_map(const PMap& map_0, const string& filename) {
         p_write_state(out, key);
 
         // 3. Write the Score (int)
-        out.write(reinterpret_cast<const char*>(&props.score), sizeof(props.score));
+        // out.write(reinterpret_cast<const char*>(&props.score), sizeof(props.score));
 
         // 4. Write the size of the previous_states vector
         size_t vec_size = props.previous_states.size();
@@ -72,7 +72,7 @@ PMap load_p_map(const string& filename) {
         NState_Properties props;
 
         // 3. Read the Score
-        in.read(reinterpret_cast<char*>(&props.score), sizeof(props.score));
+        // in.read(reinterpret_cast<char*>(&props.score), sizeof(props.score));
 
         // 4. Read the size of previous_states vector
         size_t vec_size = 0;

@@ -1,4 +1,4 @@
-trialf.cpp
+isparentcorrect.cpp
 
 src/map.cpp
 src/utils/state_repr.cpp

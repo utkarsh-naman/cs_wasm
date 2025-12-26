@@ -7,5 +7,5 @@
 
 #include "../state_repr.hpp"
 
-Next_State_str_vector distribute(State_tuple state);
+Next_State_str_vector distribute(const State_tuple& state);
 #endif //CS_CPP_DISTRIBUTE_HPP

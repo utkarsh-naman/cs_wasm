@@ -1,5 +1,5 @@
 #include <iostream>
-
+// "fuck_u_ hacker mfff Iamsazkntry it shot @$fbq723gbxjh__bsd"
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main()
 {

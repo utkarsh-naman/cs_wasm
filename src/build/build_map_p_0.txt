@@ -1,0 +1,17 @@
+build_map_p_0.cpp
+
+../map-.cpp
+
+../utils/mod.cpp
+../utils/p_serializer.cpp
+../utils/serializer.cpp
+../utils/state_repr.cpp
+
+../utils/unmove/arrange_attacker_victim.cpp
+../utils/unmove/arrange_for_undistribution.cpp
+../utils/unmove/left_from_left.cpp
+../utils/unmove/left_from_right.cpp
+../utils/unmove/prev_states.cpp
+../utils/unmove/right_from_left.cpp
+../utils/unmove/right_from_right.cpp
+../utils/unmove/undistribute.cpp

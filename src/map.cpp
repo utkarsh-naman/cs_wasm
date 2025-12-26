@@ -11,7 +11,6 @@
 
 #include <map>
 #include <queue>
-#include <variant>
 
 using namespace std;
 
@@ -39,6 +38,9 @@ void print_map(const Map& map_0)
             print_state(next);
             cout << "\n";
         }
+        cout << "\t-> contribution: " << props.contribution << "\n";
+        cout << "\t-> windepth: " << props.windepth << "\n";
+        cout << "\t-> losedepth: " << props.losedepth << "\n";
         cout << "\n";
     }
 }

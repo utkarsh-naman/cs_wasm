@@ -50,9 +50,9 @@ int main()
         }
     }
     // cout << static_cast<string>(all_moves) << endl;
-    for (int i= 0; i < all_moves.size(); i++)
+    for (auto & all_move : all_moves)
     {
-        cout << all_moves[i].data() << endl;
+        cout << all_move.data() << endl;
         // cout << get<0>(get<0>(all_moves_tuple[i])) << get<1>(get<0>(all_moves_tuple[i])) << get<0>(get<1>(all_moves_tuple[i])) << get<1>(get<1>(all_moves_tuple[i])) << get<2>(all_moves_tuple[i]) << endl;
     }
     return 0;

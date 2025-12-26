@@ -1,0 +1,4 @@
+tests/testbot.cpp
+
+src/utils/serializer.cpp
+src/utils/state_repr.cpp
