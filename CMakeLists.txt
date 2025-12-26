@@ -67,4 +67,6 @@ add_executable(cs_cpp tests/isparentcorrect.cpp
         src/build/test_map_p_0.cpp
         src/gamebot/set_suicides.cpp
         src/gamebot/set_suicides.hpp
+        src/gamebot/set_score.cpp
+        src/gamebot/set_terminal_depth.cpp
 )
