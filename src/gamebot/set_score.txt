@@ -1,4 +1,5 @@
 set_score.cpp
 
 ../utils/serializer.cpp
+../utils/p_serializer.cpp
 ../utils/state_repr.cpp

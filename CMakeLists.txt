@@ -69,4 +69,5 @@ add_executable(cs_cpp tests/isparentcorrect.cpp
         src/gamebot/set_suicides.hpp
         src/gamebot/set_score.cpp
         src/gamebot/set_terminal_depth.cpp
+        src/UncEngine/engine_unc.cpp
 )
